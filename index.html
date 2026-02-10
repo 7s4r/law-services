@@ -12,7 +12,12 @@
       name="keywords"
       content="avocat international, avocat pénaliste, droit des étrangers, avocat divorce, avocat sanctions européennes, avocat Monaco, avocat crypto, avocat blockchain, cabinet multilingue, Lexalaw, contentieux transfrontalier, avocat droit de la famille, avocat immigration, droit international public, droit international privé"
     />
-    <link href="./dist/main.min.css" rel="stylesheet" />
+    <!--<link href="./dist/main.min.css" rel="stylesheet" />-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -568,6 +573,109 @@
       </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-white py-16">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-8" id="testimonials-title"></h2>
+        <!-- Desktop grid -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8"
+          id="testimonials-grid"
+        >
+          <div
+            class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition-transform transform hover:scale-105"
+          >
+            <div class="flex flex-col justify-between h-full">
+              <p
+                class="text-gray-700 italic mb-6 text-left"
+                id="testimonial1-text"
+              ></p>
+              <div class="flex items-center gap-4">
+                <img
+                  src="images/avatars/sophie-laurent.jpeg"
+                  alt="Portrait de Sophie Laurent"
+                  class="rounded-full object-cover"
+                  loading="lazy"
+                  width="64"
+                  height="64"
+                />
+                <div class="text-left">
+                  <p class="font-semibold" id="testimonial1-author">
+                    Sophie Laurent
+                  </p>
+                  <p class="text-sm text-gray-600" id="testimonial1-role"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition-transform transform hover:scale-105"
+          >
+            <div class="flex flex-col justify-between h-full">
+              <p
+                class="text-gray-700 italic mb-6 text-left"
+                id="testimonial2-text"
+              ></p>
+              <div class="flex items-center gap-4">
+                <img
+                  src="images/avatars/karim-messaoudi.jpeg"
+                  alt="Portrait de Karim Messaoudi"
+                  class="rounded-full object-cover"
+                  loading="lazy"
+                  width="64"
+                  height="64"
+                />
+                <div class="text-left">
+                  <p class="font-semibold" id="testimonial2-author">
+                    Karim Messaoudi
+                  </p>
+                  <p class="text-sm text-gray-600" id="testimonial2-role"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition-transform transform hover:scale-105"
+          >
+            <div class="flex flex-col justify-between h-full">
+              <p
+                class="text-gray-700 italic mb-6 text-left"
+                id="testimonial3-text"
+              ></p>
+              <div class="flex items-center gap-4">
+                <img
+                  src="images/avatars/elena-gravilova.jpeg"
+                  alt="Portrait de Elena Gavrilova"
+                  class="rounded-full object-cover"
+                  loading="lazy"
+                  width="64"
+                  height="64"
+                />
+                <div class="text-left">
+                  <p class="font-semibold" id="testimonial3-author">
+                    Elena Gavrilova
+                  </p>
+                  <p class="text-sm text-gray-600" id="testimonial3-role"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile carousel -->
+        <div class="md:hidden relative max-w-md mx-auto">
+          <div id="testimonial-carousel">
+            <!-- Slides will be injected here -->
+          </div>
+          <div
+            class="flex justify-center mt-4 space-x-2"
+            id="testimonial-pagination"
+          >
+            <!-- Pagination dots will be injected here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-16 bg-gray-100">
       <div class="container mx-auto px-4">
@@ -786,8 +894,8 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="dist/locales.min.js"></script>
-    <script type="text/javascript" src="dist/main.min.js"></script>
+    <script type="text/javascript" src="js/locales.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" defer></script>
   </body>
 </html>

@@ -203,7 +203,3 @@ document.addEventListener('click', function (event) {
     menu.classList.remove('duration-300');
   }
 });
-
-function onSubmit(token) {
-  document.getElementById('contact-form').submit();
-}

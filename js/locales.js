@@ -96,6 +96,20 @@ window.locales = {
       'Lexalaw supports clients in international law, criminal defense, family matters, immigration, and business law across Europe and globally. We operate in French, English, Russian, and Ukrainian.',
     'seo-text-paragraph2':
       'With a strategic and human-centered approach, we protect the interests of individuals, companies, and foreign investors in complex and cross-border legal matters.',
+    // Testimonials section
+    'testimonials-title': 'What our clients say',
+    'testimonial1-text':
+      '“Lexalaw provided outstanding support throughout a challenging international dispute.”',
+    'testimonial1-author': '— Sophie Laurent',
+    'testimonial1-role': 'Legal Director at GlobalTrade Inc.',
+    'testimonial2-text':
+      '“A professional and empathetic team that made us feel safe at every step.”',
+    'testimonial2-author': '— Karim Messaoudi',
+    'testimonial2-role': 'CFO at EuroStartups Ltd.',
+    'testimonial3-text':
+      '“Highly skilled lawyers with a human touch. I wholeheartedly recommend them.”',
+    'testimonial3-author': '— Elena Gavrilova',
+    'testimonial3-role': 'Immigration Officer at Horizon Group.',
   },
 
   fr: {
@@ -198,6 +212,20 @@ window.locales = {
       'Lexalaw accompagne ses clients en droit international, pénal, de la famille, de l’immigration et des affaires à l’échelle européenne et mondiale. Nous intervenons en français, anglais, russe et ukrainien.',
     'seo-text-paragraph2':
       'Grâce à notre approche stratégique et humaine, nous défendons les intérêts des particuliers, des entreprises et des investisseurs étrangers face aux procédures complexes et transfrontalières.',
+    // Section témoignages
+    'testimonials-title': 'Ce que disent nos clients',
+    'testimonial1-text':
+      '“Un accompagnement exceptionnel dans un contentieux international complexe.”',
+    'testimonial1-author': '— Sophie Laurent',
+    'testimonial1-role': 'Directrice juridique chez GlobalTrade Inc.',
+    'testimonial2-text':
+      '“Une équipe humaine et très professionnelle. Nous nous sommes sentis en sécurité.”',
+    'testimonial2-author': '— Karim Messaoudi',
+    'testimonial2-role': 'Directeur financier chez EuroStartups Ltd.',
+    'testimonial3-text':
+      '“Des avocats compétents et disponibles. Je recommande vivement.”',
+    'testimonial3-author': '— Elena Gavrilova',
+    'testimonial3-role': 'Chargée d’immigration chez Horizon Group.',
   },
   ru: {
     'site-title': 'LEXALAW',
@@ -297,6 +325,20 @@ window.locales = {
       'Lexalaw оказывает поддержку клиентам в области международного, уголовного, семейного, иммиграционного и коммерческого права в Европе и по всему миру. Мы работаем на французском, английском, русском и украинском языках.',
     'seo-text-paragraph2':
       'Благодаря стратегическому и человеческому подходу мы защищаем интересы частных лиц, компаний и иностранных инвесторов в сложных трансграничных делах.',
+    // Раздел с отзывами
+    'testimonials-title': 'Отзывы наших клиентов',
+    'testimonial1-text':
+      '“Исключительная поддержка и профессионализм в сложном международном процессе.”',
+    'testimonial1-author': 'Софи Лоран',
+    'testimonial1-role': 'Юридический директор в GlobalTrade Inc.',
+    'testimonial2-text':
+      '“Команда, сочетающая эмпатию и высокую компетентность. Мы чувствовали себя в безопасности.”',
+    'testimonial2-author': 'Карим Месауди',
+    'testimonial2-role': 'Финансовый директор в EuroStartups Ltd.',
+    'testimonial3-text':
+      '“Рекомендую всем, кто ищет надежную и человечную юридическую помощь.”',
+    'testimonial3-author': 'Елена Гаврилова',
+    'testimonial3-role': 'Специалист по миграции в Horizon Group.',
   },
   uk: {
     'site-title': 'LEXALAW',
@@ -395,5 +437,18 @@ window.locales = {
       'Lexalaw надає правову допомогу з міжнародного, кримінального, сімейного, міграційного та комерційного права по всій Європі та у світі. Ми працюємо французькою, англійською, російською та українською мовами.',
     'seo-text-paragraph2':
       'Завдяки стратегічному і людяному підходу ми захищаємо інтереси клієнтів, компаній та іноземних інвесторів у складних транскордонних справах.',
+    // Розділ відгуків
+    'testimonials-title': 'Відгуки наших клієнтів',
+    'testimonial1-text':
+      '“Надзвичайна підтримка та професіоналізм у складній міжнародній справі.”',
+    'testimonial1-author': 'Софі Лоран',
+    'testimonial1-role': 'Юридичний директор у GlobalTrade Inc.',
+    'testimonial2-text':
+      '“Команда, яка поєднує емпатію та експертність. Ми почувались у безпеці.”',
+    'testimonial2-author': 'Карим Месауді',
+    'testimonial2-role': 'Фінансовий директор у EuroStartups Ltd.',
+    'testimonial3-text': '“Щиро рекомендую – компетентні й людяні юристи.”',
+    'testimonial3-author': 'Олена Гаврилова',
+    'testimonial3-role': 'Спеціаліст з міграції у Horizon Group.',
   },
 };
